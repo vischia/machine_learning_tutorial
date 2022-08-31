@@ -28,7 +28,7 @@ cd machine_learning_tutorial/
 ```
 virtualenv -p python3.9 venv_tutorial
 source venv_tutorial/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt # or requirements_macos.txt on MacOS Monterey
 ```
 
 To deactivate the environment, you should run `deactivate` from the command prompt.
@@ -38,7 +38,7 @@ To deactivate the environment, you should run `deactivate` from the command prom
 ```
 conda create --name venv_tutorial python==3.9.13
 conda activate venv_tutorial
-pip install -r requirements.txt
+pip install -r requirements.txt # or requirements_macos.txt on MacOS Monterey
 ```
 
 To deactivate the environment, you should run `conda deactivate` from the command prompt.
