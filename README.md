@@ -31,6 +31,8 @@ source venv_tutorial/bin/activate
 pip install -r requirements.txt # or requirements_macos.txt on MacOS Monterey
 ```
 
+Geoffrey Mullier reports that on MacOS 12.5 `virtualenv` doesn't work while `python3 -m venv venv_tutorial` works as intended.
+
 To deactivate the environment, you should run `deactivate` from the command prompt.
 
 2.2 Using conda
